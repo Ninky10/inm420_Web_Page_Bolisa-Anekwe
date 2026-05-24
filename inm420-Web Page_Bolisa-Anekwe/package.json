@@ -1,0 +1,19 @@
+{
+  "name": "inm420-web-page-anekwe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "lite-server --baseDir=\"Fun\"",
+    "sass": "sass --watch src/scss:Fun/assets/css",
+    "start": "concurrently \"npm run serve\" \"npm run sass\""
+  },
+  "keywords": [],
+  "author": "Ninky",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.97.3"
+  }
+}
